@@ -9,7 +9,12 @@
             font-family: sans-serif;
             padding: 20px;
             background-color: #f0f0f0;
-            text-align: center;
+            text-align: center; /* Center text content */
+            display: flex; /* Use flexbox for centering the button */
+            flex-direction: column; /* Arrange items vertically */
+            justify-content: center; /* Center content vertically */
+            align-items: center; /* Center content horizontally */
+            min-height: 90vh; /* Ensure body takes up most of the viewport height */
         }
         h1 {
             color: #007bff;
@@ -17,10 +22,28 @@
         p {
             line-height: 1.6;
         }
+        .button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px; /* Add some space above the button */
+        }
     </style>
 </head>
 <body>
     <h1>Thank you for visiting my website!</h1>
     <p>Owner: Muhammad Faizan Shah</p>
+    <p>Email: m.faizan.shah.6b@gmail.com</p>
+    <p>html files download link
+    👇</p>
+    <a href="https://www.mediafire.com/file/5fyagphvjibnyfp/WEB_DEVELOPMENT.zip/file" class="button">Download link</a>
+    <p>Essential videos (MUST WATCH)
+    👇</p>
+    <a href="https://www.mediafire.com/file/8l1cnv5ohl2z7dl/ESSENTIAL_VIDEOS.zip/file" class="button">Download link</a>
 </body>
 </html>
